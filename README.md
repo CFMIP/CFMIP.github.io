@@ -12,7 +12,7 @@ Here, we provide some addtional information for users:
 ## Information for COSP developers
 If you plan to contribute to COSP, it is imperative that you read the following two documents:
 - [Working practices](COSP/working_practices.md)
-- [Coding standards](coding_standards.md)
+- [Coding standards](COSP/coding_standards.md)
 
 ## Markdown
 The pages are written in Markdown, a lightweight and easy-to-use syntax for styling your writing. [Learn more](COSP/markdown.md) about Markdown if you want to contribute to the COSP pages.

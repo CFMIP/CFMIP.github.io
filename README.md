@@ -1,5 +1,3 @@
-# COSP webpage
-
 Welcome to the COSP web pages. This repository hosts the COSP web pages, and it is independent from the sister repository that hosts the [code](https://github.com/CFMIP/COSPv2.0).
 
 ## Information for COSP users

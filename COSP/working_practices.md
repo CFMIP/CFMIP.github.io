@@ -5,8 +5,14 @@ This document outlines the recommended working practices for COSP development. T
 An issue (Github terminology) is an editable webpage that is used to provide a traceable documentation of every change: bugfix, optimization, new capability, etc. You should create an issue when you are planning a change. This issue will describe the purpose of the change. The proposed changes should be discussed with the PMC, and with the code owners of the part of COSP that is going to be modified.
 It is the developers responsibility to contact the PMC at the start of this processes (the PMC will not be monitoring the issues) to ensure that proposed work is in keeping with COSP objectives and, that once developed and tested, is likely to be added to the trunk.
 
+## Branch from master
+In order to develop a change, you will need your own forked copy of the COSP repository. Once you have done that, you will create a new branch in which you will develop your new changes. 
+
+## Run regression tests
+Sometimes, using a different compiler or running in  a different architecture in which the reference files have been created can produce differences that will show in the regression tests. In order to catch these situations, pleaser run the regression tests before doing any development. If differences are reported, please document these in the issue, and update your reference files. 
+
 ## Develop your change
-In order to develop a change, you will need your own forked copy of the COSP repository. Once you have done that, you will create a new branch, and you will do all the code changes in your new branch. You should make regular commits to your branch to provide a history of your work that others can follow. This will help them to understand what you've done and why.
+You should make regular commits to your branch to provide a history of your work that others can follow. This will help them to understand what you've done and why.
 
 ## Test your change
 COSP provides you with a battery of regression tests to check that your changes don’t break the code. Test your changes regularly, not only at the end of the development process. This will help identify problems early.

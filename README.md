@@ -1,7 +1,7 @@
 Welcome to the COSP web pages. This repository hosts the COSP web pages, and it is independent from the sister repository that hosts the [code](https://github.com/CFMIP/COSPv2.0).
 
 ## Information for COSP users
-The installation instructions are in the [README](https://github.com/CFMIP/COSPv2.0/README.md) file of the code repository.
+The installation instructions are in the [README](https://github.com/CFMIP/COSPv2.0/blob/master/README.md) file of the code repository.
 
 Here, we provide some addtional information for users:
 - [Users issues:](COSP/users_issues.md) progress on issues raised by users during the 2017 Paris Workshop, and the users discussions in the CFMIP meetings. 

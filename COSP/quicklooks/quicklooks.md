@@ -20,7 +20,7 @@ Sum fractions over all height and reflectivity bins with reflectivity greater th
 
 <p align="center"><img src="./csat_volume_fraction_ga6.png" width="500"><img src="./csat_volume_fraction_ga6.png" width="500"></p>
 
-## CloudSat Tropical-averaged Countered Frequency by Altitude Diagram (CFAD)
+## CloudSat Tropical-averaged Contoured Frequency by Altitude Diagram (CFAD)
 
 Area-weighted average from all tropical points. Tropical points are defined as 30S to 30N. Note that model plots will have additional reflectivity bins for dBZ smaller than -25.
 
@@ -30,7 +30,7 @@ Area-weighted average from all tropical points. Tropical points are defined as 3
 
 Calculate from the joint histogram of cloud cover as a function of cloud-top pressure and optical thickness by summing over all pc-tau bins with tau greater than 0.3 bins. For the model, the sum should only be for bins with tau greater than 0.3. Observational counterpoint is “Cloud_Fraction_Mask_Total_Mean” in CFMIP-OBS dataset.
 
-<p align="center"><img src="./cosp/quicklooks/cltmodis_ga6.png" width="500"><img src="./cosp/quicklooks/cltmodis_ga6.png" width="500"></p>
+<p align="center"><img src="./cltmodis_ga6.png" width="500"><img src="./cltmodis_ga6.png" width="500"></p>
 
 ## MODIS-simulator globally-averaged pc-tau joint histogram
 
@@ -42,7 +42,7 @@ Global area-weighted average from all points with valid data. Note that per stan
 <p align="center"><img src="./reffclwmodis_ga6.png" width="500"><img src="./reffclwmodis_ga6.png" width="500"></p>
 
 ## MODIS-simulator ice effective radius
-<p align="center"><img src="./cosp/quicklooks/reffclimodis_ga6.png" width="500"><img src="./cosp/quicklooks/reffclimodis_ga6.png" width="500"></p>
+<p align="center"><img src="./reffclimodis_ga6.png" width="500"><img src="./reffclimodis_ga6.png" width="500"></p>
 
 ## MISR-simulator global map of total cloud cover
 

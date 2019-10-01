@@ -1,3 +1,4 @@
+```js
 const gitdown = Gitdown(
   '{"gitdown": "variable", "width": "width.value"}'
 );
@@ -11,6 +12,7 @@ gitdown.setConfig({
     }
   }
 });
+```
 
 # COSP quicklooks
 

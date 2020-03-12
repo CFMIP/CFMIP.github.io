@@ -12,5 +12,7 @@ If you plan to contribute to COSP, it is imperative that you read the following 
 - [Working practices](COSP/working_practices.md)
 - [Coding standards](COSP/coding_standards.md)
 
+The [quicklooks](COSP/quicklooks/quicklooks.md) show examples of COSP diagnostics that can help identify if the implementation of COSP in a model works as expected.
+
 ## Markdown
 The pages are written in Markdown, a lightweight and easy-to-use syntax for styling your writing. [Learn more](COSP/markdown.md) about Markdown if you want to contribute to the COSP pages.

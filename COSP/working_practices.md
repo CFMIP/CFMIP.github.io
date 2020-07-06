@@ -20,6 +20,7 @@ COSP provides you with a battery of regression tests to check that your changes 
 Currently, we have the follwing regression tests, which must be run from the `driver/run/` directory. They produce outputs that are saved in `driver/data/outputs/UKMO/`.
 
 **Table 1.** Regression tests.
+
 Test # | Input namelist | Input file | Output file | KGO | Description
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 1 | cosp2test cosp2_input_nl.txt | cosp2_input_um.nc | cosp2_output_um.nc | cosp2_output_um.gfortran.kgo.nc | Basic test (~150 gridpoints).

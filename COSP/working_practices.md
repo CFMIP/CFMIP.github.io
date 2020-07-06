@@ -30,7 +30,7 @@ The data files for Test 1 are small and live in the github repository, and there
 
 In `driver/`, the script `compare_to_kgo.py` can be used to test your ouputs against the references files. For instance, for the first test in the table above:
 
-    `python compare_to_kgo.py data/outputs/UKMO/cosp2_output_um.gfortran.kgo.nc data/outputs/UKMO/cosp2_output_um.nc`
+`python compare_to_kgo.py data/outputs/UKMO/cosp2_output_um.gfortran.kgo.nc data/outputs/UKMO/cosp2_output_um.nc`
     
 The script accepts thresholds for absolute and relative tolerances, named atol and rtol respectively. By default the script will report all differences, i.e. --atol=0.0 --rtol=0.0.
 

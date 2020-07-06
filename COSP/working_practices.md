@@ -21,7 +21,7 @@ Currently, we have the follwing regression tests, which must be run from the `dr
 
 **Table 1.** Regression tests.
 
-Test # | Input namelist | Input file | Output file | KGO | Description
+Test # | Command | Input file | Output file | KGO | Description
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 1 | cosp2test cosp2_input_nl.txt | cosp2_input_um.nc | cosp2_output_um.nc | cosp2_output_um.gfortran.kgo.nc | Basic test (~150 gridpoints).
 2 | cosp2test cosp2_input_nl.um_global.txt | cosp2_input.um_global.nc | cosp2_output.um_global.nc | cosp2_output.um_global.gfortran.kgo.nc | Low-res global model snapshot.

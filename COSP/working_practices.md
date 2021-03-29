@@ -23,10 +23,10 @@ Currently, we have the follwing regression tests, which must be run from the `dr
 
 Test # | Command | Input file | Output file | KGO | Description
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-1 | cosp2test cosp2_input_nl.txt | cosp2_input_um.nc | cosp2_output_um.nc | cosp2_output_um.gfortran.kgo.nc | Basic test (~150 gridpoints).
-2 | cosp2test cosp2_input_nl.um_global.txt | cosp2_input.um_global.nc | cosp2_output.um_global.nc | cosp2_output.um_global.gfortran.kgo.nc | Low-res global model snapshot.
+1 | cosp2test cosp2_input_nl.txt | cosp2_input_um.nc | cosp2_output_um.nc | cosp2_output_um.gfortran.kgo.v001.nc | Basic test (~150 gridpoints).
+2 | cosp2test cosp2_input_nl.um_global.txt | cosp2_input.um_global.nc | cosp2_output.um_global.nc | cosp2_output.um_global.gfortran.kgo.v001.nc | Low-res global model snapshot.
 
-The data files for Test 1 are small and live in the github repository, and therefore distributed with the the code. Other data files are stored in Google Drive and can be downloaded by running `download_test_data.sh` from within the `driver/` directory. The script `download_test_data.sh` checks the downloaded data files against md5 sums in `data/outputs/UKMO/`, to make sure that you are using the correct files.
+The input NetCDF file for Test 1 is small and lives in the github repository, and therefore it is distributed with the code. Other data files are stored in Google Drive and can be downloaded by running `download_test_data.sh` from within the `driver/` directory. The script `download_test_data.sh` checks the downloaded data files against md5 sums in `data/outputs/UKMO/`, to make sure that you are using the correct files.
 
 In `driver/`, the script `compare_to_kgo.py` can be used to test your ouputs against the references files. For instance, for the first test in the table above:
 
@@ -46,7 +46,7 @@ The developer should assess the impact of the change and the need for a review a
 
 Typically, the reviewer will suggest improvements and modifications that will lead to iterations in the modified code.  Once the reviewer is satisfied, they will approve the changes and the branch will be ready for merging.
 
-**Do you changes change the results?**
+**Do your changes change the results?**
 
 If answers change, provide a detailed explanation why the code changes modify the results. This will trigger discussion with the PMC about your changes.
 This process is facilitated by the Continous Integration (CI) tests. When the comparison against the KGO fails, the script `plot_test_outputs.py` is run and plots for the new output file are produced and uploaded to the _Artifact_ created by the CI action. Currently, `plot_test_outputs.py` can only produce plots for 2D output files (like Test 2). If the new results are accepted, you will need to change the md5 sums of the relevant files, and a member of the PMC will upload the new files to Google Drive.
